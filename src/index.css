@@ -5,9 +5,176 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*меню*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color:#0f0e90 ;
+  font-family: "Inter", sans-serif;
+}
+.link{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 10px 40px;
+  color: white;
+} 
+.mag{
+background-color: #0f0e90;
+}
+
+/* описание книг*/
+.icon{
+  border: none;
+  background: transparent;
+}
+.product{
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card{
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis:16%;
+  margin-top: 20px;
+}
+.Picture{
+  display: flex;
+}
+.Name{
+  display: flex;
+ color: #2e3f46;
+ font-family: "Inter", sans-serif;
+}
+.Avtor{
+  display: flex;
+  color:#767e95 ;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+.Price{
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+
+/*родители в слайдах*/
+.parent{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.container{
+  border: 2px solid #2660aa;
+  margin: 20px;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+  color:#2e3f46 ;
+}
+.parentOne{
+margin-top:40px;
+}
+
+
+/*кнопки на слайдах*/
+.btn{
+  position: absolute;
+  margin-top: 22%;  
+}
+.btnTwo{
+  position: absolute;
+  margin-left: 95%;
+  margin-top: 22%;
+}
+.parentBtn{
+  position: relative;
+  margin-top: 50px;
+}
+
+
+/*кнопки по фильрации*/
+.books{
+  background-color: #ff5500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px;
+  font-size: 17px;
+  margin-top: 40px;
+  font-family: "Inter", sans-serif;
+  
+}
+.books:hover{
+  background-color: #ff6b2f;
+}
+
+/*кнопка "купить"*/
+.btnBuy{
+  
+  padding: 7px;
+  background-color: #0f0e90;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  width: 80%;
+  margin-right: 30px;
+ 
+}
+.btnBuy:hover{
+  background-color: #2a379d;
+}
+/*сноска внизу страницы*/
+.contacts{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ebeaf8;
+  margin-top: 40px;
+}
+.contactTwo{
+  display: flex;
+  color: #33557a;
+}
+.contactTwo:hover{
+  color:#767e95;
+}
+.contactsThree{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+.iconTg{
+  margin-left: 14px;
+}
+
+.Slogan{
+  color:#2e3f46;
+  font-family: "Inter", sans-serif;
+}
+/*копки кол-ва */
+.btnQuantity{
+ margin: 10px;
+  border: #0f0e90 solid 1px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 30px;
+  background-color:#ebeaf8 ;
+  
+}
+/*родитель в корзине*/
+.containerCart{
+  display: flex;
+  justify-content: flex-start;
+  
 }
