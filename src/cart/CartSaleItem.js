@@ -1,14 +1,13 @@
-
 import { useDispatch } from "react-redux";
-import DataBooks from "../ButtonFiltred/DataBooks";
 import { removeItemFromCart } from "../redux/counterCart";
+import DataSaleBooks from "../sale/DataSaleBooks";
 
 
 
 
 
-const CartItem=({cartItem})=>{
-const bookName=DataBooks.find(item=>item.id===cartItem.bookId)
+const CartSaleItem=({cartItem})=>{
+const bookName=DataSaleBooks.find(item=>item.id===cartItem.bookId)
 
 const dispatch=useDispatch()
 
@@ -36,4 +35,4 @@ const dispatch=useDispatch()
         </div>
     )
 }
-export default CartItem;
+export default CartSaleItem;

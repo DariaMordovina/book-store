@@ -17,7 +17,7 @@ code {
 nav{
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   background-color:#0f0e90 ;
   font-family: "Inter", sans-serif;
 }
@@ -27,6 +27,8 @@ nav{
   font-weight: bolder;
   padding: 10px 40px;
   color: white;
+
+ 
 } 
 .mag{
 background-color: #0f0e90;
@@ -173,8 +175,103 @@ margin-top:40px;
   
 }
 /*родитель в корзине*/
+.containerCartGL{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  background-color: #ebeaf8;
+ 
+}
 .containerCart{
   display: flex;
-  justify-content: flex-start;
+}
+.Two{
+  margin-right: 10px;
+}
+.textCart{
+  display: flex;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color:#2e3f46;
+  margin: 20px;
+}
+/*корзина: колво*/
+.totalQ{
+display: flex;
+justify-content: end;
+margin-right: 50px;
+ color: #2e3f46;
+ font-size: 20px;
+ font-weight: bolder;
+ font-family: "Inter", sans-serif;
+}
+/*корзина: итого*/
+.totalP{
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+   color: #2e3f46;
+   font-size: 20px;
+   font-weight: bolder;
+   font-family: "Inter", sans-serif;
+  }
+  .Korzina{
+    color: #2e3f46;
+    font-family: "Inter", sans-serif;
+    margin: 20px;
+  }
+  .Photo{
+display: flex;
+    
+  }
+  .iconDelete{
+    margin-top: 17px;
+  }
+  /*родитель на странице Sale*/
+.parentSale{
+  display: flex;
+  justify-content: space-around;
+}
+.saleOne{
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  background-color: #c3d4e6;
+  border-radius: 5px;
+  margin: 10px;
+}
+.saleH2{
+  margin-left: 10px;
+  color: #2e3f46;
+  font-family: "Inter", sans-serif;
+}
+.saleP{
+  margin-left: 10px;
+  color: #2e3f46;
+  font-family: "Inter", sans-serif;
+}
+.salePromo{
+  margin-left: 10px;
+  color: white;
+  background-color: #ff6b2f;
+  font-family: "Inter", sans-serif;
+  width: 90%;
+  border-radius: 5px;
+  padding: 10px;
+}
+.Akcii{
+  margin-left: 20px;
+  color: #2e3f46;
+  font-family: "Inter", sans-serif;
+}
+/*страница акций, новая и старая цена*/
+del{
+  color: #767e95;
+ margin-left: 5px;
+}
+ins{
+  text-decoration: none;
+  display: inline-block;
+  color: red;
   
 }
