@@ -286,13 +286,22 @@ ins{
 
 @media all and (max-width: 500px){
   .nav{
-   width: 200%;
+   width: 100%;
   }
   .imgSlides{
-    width:"150px";
-     height:"100px";
-
+    width: 380px;
+    height: 250px;
+   
+    
   }
+  .IconGL{
+    width: 30px;
+    height: 20px;
+  }
+  .link{
+    font-size: 10px;
+  }
+  
   .parent{
     display: flex;
   flex-direction: column;
@@ -300,46 +309,60 @@ ins{
   }
   .parentOne{
     display: flex;
-    width: 850px;
+    flex-direction: column;
   }
   .container{
     font-size: 15px;
   }
   .booksButton{
     display: flex;
-    margin-left: 100px;
+    flex-direction: column;
+    
   }
   
   .btnBuy{
-    font-size: 30px;
-    margin-left:30px ;
+    font-size: 15px;
+    ;
   }
   .product{
-    margin-left: 250px;
+    margin-left: 20px;
   }
   .Picture{
-    width:400px ;
-    height: 600px;
+    width:150px ;
+    height: 250px;
   }
   .Name{
-    font-size: 30px;
+    font-size: 15px;
   }
   .Avtor{
-    font-size: 25px;
+    font-size: 12px;
   }
   .Price{
-    font-size: 25px;
+    font-size: 15px;
   }
   .contacts{
-    width: 210%;
+   display: flex;
+   flex-direction: column;
+  
+  }
+  .contactsOne{
+    width: 100%;
+  }
+  .contactTwo{
+    font-size: 10px;
   }
   .btnTwo{
-    margin-left: 800px;
+    margin-left: 340px;
   }
+  
   .books{
-    font-size: 20px;
+    font-size: 17px;
   }
   .containerCartGL{
+    width: 100%;
+  }
+  .containerCart{
+    font-size: 15px;
     width: 800px;
   }
   .parentSale{
@@ -348,7 +371,9 @@ ins{
     
   }
   .saleOne{
-    font-size: 20px;
-    margin-left: 230px;
+    font-size: 15px;
+    width: 100%;
+    
   }
+  
 }
