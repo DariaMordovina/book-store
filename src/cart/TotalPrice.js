@@ -8,9 +8,7 @@ const TotalPrice =()=>{
 const totalPrice=useSelector(getTotalPrice)
 
     return(
-        <div>
-            <h3>Итого: {totalPrice} ₽</h3>
-        </div>
+        <h3>Итого: {totalPrice} ₽</h3>
     )
 }
 export default TotalPrice;

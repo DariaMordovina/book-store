@@ -4,7 +4,7 @@
 const Buttons =({filteredBooks,filtBook})=>{
 
     return(
-        <div>
+        <div className="booksButton">
             <button className="books" onClick={()=>filteredBooks("ужасы")}>ужасы</button>
             <button className="books" onClick={()=>filteredBooks("детектив")}>детективы</button>
             <button className="books" onClick={()=>filteredBooks("роман")}>романы</button>

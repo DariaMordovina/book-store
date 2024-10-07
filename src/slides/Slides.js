@@ -33,35 +33,28 @@ const Slides =()=>{
     <div className="parent">
         
         <div>
-            
-         <div className="parentBtn">
+        <div className="parentBtn">
             <button className="icon btn" onClick={back}><img src="https://yaratam.design/img/svg/pagination-left-icon.svg" alt="icon" width="30px"/></button>
             <button className="icon btnTwo" onClick={next}><img src="https://yaratam.design/img/svg/pagination-right-icon.svg" alt="icon" width="30px"/></button>
-    <img src={picture} alt="picture" width="850px" height="400px"/>
-
-
+            <img className="imgSlides" src={picture} alt="picture" width="850px" height="400px"/>
         </div>
         </div>
+
         <div className="parentOne" >
-            <div className="container">
+        <div className="container">
             <h3>ЧТО ПРИДУМАЛИ МОСЯН, ТУНСЮ и МАЙ?! </h3>
             <p> Узнайте в подборке новинок августа</p>
-           
-            </div>
-            <div className="container">
+        </div>
+        <div className="container">
             <h3>ЭКСКЛЮЗИВНО В НАШЕМ МАГАЗИНЕ! </h3>
             <p> Невозможно пропустить!</p>
-           
-            </div>
-            <div className="container">
+        </div>
+        <div className="container">
             <h3>ДАРИМ СКИДКУ! </h3>
             <p> Дарим скидку 30% на все книги обладателям подписки!</p>
-           
-            </div>
         </div>
         </div>
-      
-        
+        </div>
     )
 }
 export default Slides;

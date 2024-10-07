@@ -8,9 +8,7 @@ const TotalQuantityImg=()=>{
 const totalQuantity=useSelector(getTotalQuantity)
 
     return(
-        <div>
-            <p>{totalQuantity}</p>
-        </div>
+        <p className="Rasst">{totalQuantity}</p>
     )
 }
 export default TotalQuantityImg;

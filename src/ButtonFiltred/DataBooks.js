@@ -5,7 +5,7 @@ const DataBooks=[
         genre:"детектив",
         image: "https://cv3.litres.ru/pub/c/cover_max1500/17203932.jpg",
         avtor:"Артур Конан Дойл",
-        price:"249",
+        price:"259",
         seach:"все"
     },
     {

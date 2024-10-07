@@ -11,10 +11,10 @@ export const counterCart = createSlice({
 addItemToCart:(state,action) => {
     const timeId= new Date().getTime()
     state.cartItems.push({
+        ...action.payload.books,
         id:timeId,
     bookId:action.payload.books.id,
     quantity:action.payload.quantity,
-    pictureId:action.payload.image,
     totalPrice:action.payload.quantity*action.payload.books.price,
     totalQuantity:action.payload.quantity
     })

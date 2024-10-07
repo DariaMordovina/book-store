@@ -3,15 +3,14 @@ import OneSaleBook from "./OneSaleBook";
 import { useState } from "react";
 
 const SaleBooks=()=>{
-    const [books,setBooks]=useState(DataSaleBooks);
     
     return(
         <div className="product" >
-        {books.map((books =>{
-            const{id,name,genre,image,avtor,price}=books;
+        {DataSaleBooks.map((books =>{
+            const{id,name,genge,image,avtor,price,priceTwo}=books;
             return(
                 
-               <OneSaleBook books={books}/>
+               <OneSaleBook name={name} image={image} avtor={avtor} price={price} id={id} priceTwo={priceTwo} books={books} />
         
             )
         })) }

@@ -22,14 +22,14 @@ nav{
   font-family: "Inter", sans-serif;
 }
 .link{
+  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bolder;
   padding: 10px 40px;
   color: white;
-
- 
 } 
+
 .mag{
 background-color: #0f0e90;
 }
@@ -165,6 +165,9 @@ margin-top:40px;
   font-family: "Inter", sans-serif;
 }
 /*копки кол-ва */
+.Knopka{
+  margin-right: 30px;
+}
 .btnQuantity{
  margin: 10px;
   border: #0f0e90 solid 1px;
@@ -175,6 +178,7 @@ margin-top:40px;
   
 }
 /*родитель в корзине*/
+
 .containerCartGL{
   display: flex;
   justify-content: space-between;
@@ -274,4 +278,77 @@ ins{
   display: inline-block;
   color: red;
   
+}
+.Rasst{
+  margin: 0px;
+  font-size:15px;
+}
+
+@media all and (max-width: 500px){
+  .nav{
+   width: 200%;
+  }
+  .imgSlides{
+    width:"150px";
+     height:"100px";
+
+  }
+  .parent{
+    display: flex;
+  flex-direction: column;
+    margin-top: 20px;
+  }
+  .parentOne{
+    display: flex;
+    width: 850px;
+  }
+  .container{
+    font-size: 15px;
+  }
+  .booksButton{
+    display: flex;
+    margin-left: 100px;
+  }
+  
+  .btnBuy{
+    font-size: 30px;
+    margin-left:30px ;
+  }
+  .product{
+    margin-left: 250px;
+  }
+  .Picture{
+    width:400px ;
+    height: 600px;
+  }
+  .Name{
+    font-size: 30px;
+  }
+  .Avtor{
+    font-size: 25px;
+  }
+  .Price{
+    font-size: 25px;
+  }
+  .contacts{
+    width: 210%;
+  }
+  .btnTwo{
+    margin-left: 800px;
+  }
+  .books{
+    font-size: 20px;
+  }
+  .containerCartGL{
+    width: 800px;
+  }
+  .parentSale{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .saleOne{
+    font-size: 20px;
+    margin-left: 230px;
+  }
 }

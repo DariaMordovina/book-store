@@ -7,7 +7,7 @@ const OneBook = ({books}) =>{
     const[quantity,setQuantity]=useState(1)
     const dispatch=useDispatch();
     return(
-         <div className="product-card" key="id">
+        <div className="product-card" key="id">
             <img className="Picture" src={books.image} alt="" width="200px" height="300px" />
         <div>
             <div className="product-info">
@@ -19,7 +19,6 @@ const OneBook = ({books}) =>{
             </div>
             </div>
         </div>
-      
     )
 }
 export default OneBook;
