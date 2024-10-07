@@ -291,8 +291,6 @@ ins{
   .imgSlides{
     width: 380px;
     height: 250px;
-   
-    
   }
   .IconGL{
     width: 30px;
@@ -301,7 +299,6 @@ ins{
   .link{
     font-size: 10px;
   }
-  
   .parent{
     display: flex;
   flex-direction: column;
@@ -317,9 +314,7 @@ ins{
   .booksButton{
     display: flex;
     flex-direction: column;
-    
   }
-  
   .btnBuy{
     font-size: 15px;
     ;
@@ -341,8 +336,8 @@ ins{
     font-size: 15px;
   }
   .contacts{
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
   
   }
   .contactsOne{
@@ -354,7 +349,6 @@ ins{
   .btnTwo{
     margin-left: 340px;
   }
-  
   .books{
     font-size: 17px;
   }
@@ -367,13 +361,10 @@ ins{
   }
   .parentSale{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
   }
   .saleOne{
     font-size: 15px;
     width: 100%;
-    
   }
-  
 }
